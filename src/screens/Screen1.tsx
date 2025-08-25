@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import ContacListScreen from './ContacListScreen';
 import ContextApiComponent from './contextApi';
 import Grid from './Grid';
+import ParentComponent from './Redux/Screens/ParentComponent';
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -18,7 +19,8 @@ const Screen1 = () => {
       {/* <SectionLIstComponent /> */}
       {/* <ContacListScreen /> */}
       {/* <Grid /> */}
-      <ContextApiComponent />
+      {/* <ContextApiComponent /> */}
+      <ParentComponent />
     </SafeAreaView>
   );
 };
