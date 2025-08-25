@@ -19,6 +19,7 @@ const ChildComponent = () => {
   });
 
   const dispatch = useDispatch();
+  console?.log('render');
   return (
     <View>
       <Text>Counter : {counter}</Text>
