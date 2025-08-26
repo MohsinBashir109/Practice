@@ -16,7 +16,6 @@ type TextInputProps = {
 };
 
 const TextImput = (props: TextInputProps) => {
-  console.log('render');
   return (
     <TextInput
       style={[styles.cotainer, props.containerStyle]}

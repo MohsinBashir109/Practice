@@ -10,7 +10,7 @@ const ContextApiComponent = () => {
   const incrementCounter = () => {
     setCounter(counter + 1);
   };
-  console.log(counterContext);
+  //console.log(counterContext);
   return (
     <counterContext.Provider value={{ counter, incrementCounter }}>
       <Child />

@@ -7,6 +7,7 @@ import Grid from './Grid';
 import ParentComponent from './Redux/Screens/ParentComponent';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import TextImput from '../../component/TextImput';
+import UseEffect from './UseEffect';
 
 const Screen1 = () => {
   // const data = ['mohsin', 'ali', 'hamza', 'saif'];
@@ -27,12 +28,13 @@ const Screen1 = () => {
       {/* <Grid /> */}
       {/* <ContextApiComponent /> */}
       {/* <ParentComponent /> */}
-      <TextImput
+      {/* <TextImput
         placeHolder="Email"
         containerStyle={styles.textInput}
         onTextChange={text => setInput(text)}
         value={input}
-      />
+      /> */}
+      <UseEffect />
     </SafeAreaView>
   );
 };
